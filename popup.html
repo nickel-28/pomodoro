@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body class="light">
+
+  <h1>Pomodoro</h1>
+
+  <!-- Time Selector -->
+  <select id="timeSelect">
+    <option value="25">25 min</option>
+    <option value="30">30 min</option>
+    <option value="50">50 min</option>
+  </select>
+
+  <!-- Timer Display -->
+  <div id="timer">25:00</div>
+
+  <!-- Buttons -->
+  <div class="buttons">
+    <button id="startPause">Start</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <!-- Dark Mode Toggle -->
+  <div class="theme">
+    <label>
+      <input type="checkbox" id="themeToggle" />
+      Dark Mode
+    </label>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
